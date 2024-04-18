@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+       width: 100%;
+    height: 100vh;
+    background: url('../img/fanda-min-min-min-min.png') no-repeat center center/cover;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+    left: 40%;
+    width: 20vw;
+}
+
+span {
+    color: #ffffff;
+    text-shadow: 3px 3px 6px #5dff9b;
+}
+
+.formulario {
+    width: 80%;
+    max-width: 600px;
+    height: 90vh;
+    background-color: rgba(0, 183, 0, 0.2);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs-inline,
+.input-columna {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+ margin: 1%;
+    border-radius: 10px;
+    border: 1px solid black;
+    height:5vh;
+    padding: 8px;
+ 
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+ margin: 1%;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 10vh;
+    padding: 8px;
+    resize: none; /* Evita que el usuario pueda redimensionar el textarea */
+
+    box-sizing: border-box;
+}
+.inputs-inline{
+    display: flex;
+  }
+.input-columna {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inputs-inline label,
+.input-columna label {
+    flex: 1;
+}
+
+.boton-enviar {
+    text-align: center;
+}
+
+.button,
+.boton-enviar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 50%;
+    text-decoration: none;
+}
+
+.button:hover,
+.boton-enviar button:hover {
+    background-color: #45a049;
+}
+
+.webwise {
+    height: auto;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Consulta de medios para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    h2 {
+        left: 0;
+        width: 100%;
+    }
+
+    .formulario {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .webwise {
+        width: 70%;
+    }
+
+    input,
+    textarea {
+        margin: 2% 0;
+    }
+
+    .button,
+    .boton-enviar button {
+        width: 50%;
+    }
+}

@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=League+Gothic&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+   
+
+    
+}
+p{
+    font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+header {
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    z-index: 1000;
+ }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+ }
+
+.logo img {
+    max-height: 120px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+/* Estilos para el enlace normal */
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+     font-size: 1.2rem;
+    position: relative;
+    overflow: hidden; /* Oculta el subrayado al principio */
+}
+
+/* Estilos para el efecto de subrayado con animación en hover */
+.nav-links a::before {
+    content: '';
+    position: absolute;
+    width: 0; /* Inicialmente, el subrayado tiene ancho cero */
+    height: 2px; /* Altura del subrayado */
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff; /* Color del subrayado */
+    transition: width 0.3s ease; /* Transición para suavizar el cambio de ancho */
+}
+
+.nav-links a:hover::before {
+    width: 100%; /* Al pasar el mouse, el subrayado se extiende al 100% de ancho */
+}
+
+
+.content-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+     height: 100vh;
+     padding: 2%;
+      background: url('../img/fanda-min-min-min-min.avif') no-repeat;
+     background-size: cover;
+ }
+
+.left-div, .right-div {
+    margin-top: 20%;
+ }
+
+
+.left-div {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+      
+ }
+
+.left-div h1 {
+      color: #ffffff;
+    font-size: 3.5rem;
+      margin-bottom: 10px;
+    width:46vw;
+}
+
+span {
+    color: #ffffff;
+    text-shadow: 3px 3px 6px #5dff9b;
+ }
+
+.left-div p {
+     color: #ffffff;
+    width: 42vw;
+    margin-top: 0;
+}
+
+.dos {
+    width: 30vw;
+    position: relative;
+}
+
+.right-div {
+    margin-left: 1%;
+     border-radius: 10px;
+    width: 100%; /* Ajuste del ancho */
+  }
+
+.videoo {
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 10px 5px rgb(112, 255, 93);
+    
+
+}
+
+.video-marco{
+    height: 70%;
+    width: 70%;
+    border-radius: 10px;
+}
+.bottom-div {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.eleva-btn-presencia {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    background-size: cover;    border: none;
+    border-radius: 40px;
+    height: 8vh;
+    width: 20vw;
+    cursor: pointer;
+    margin-top: 4%;
+    position: 0;
+    transition: .5s;
+  }
+  .eleva-btn-presencia:hover{
+    box-shadow: 0px 0px 10px 1px white;
+
+   transform:translateY(-10px);
+    background: linear-gradient(to right, rgb(0, 113, 113), rgb(22, 200, 90));
+    background-size: cover;    border: none;
+
+}
+.eleva-btn {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    background-size: cover;    border: none;
+    border-radius: 40px;
+    height: 8vh;
+    width: 20vw;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+
+.eleva-btn:hover{
+    box-shadow: 0px 0px 10px 1px white;
+
+   transform:translateY(-10px);
+    background: linear-gradient(to right, rgb(0, 113, 113), rgb(22, 200, 90));
+    background-size: cover;    border: none;
+
+}
+
+
+/*2da seccion*/
+
+.img{
+    border-radius: 10px;
+}
+
+.info-bar {
+    color: #333;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.linea-verde-dos {
+    height: 2px;
+    width: 80%;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    margin: 10px 0;
+}
+
+
+
+.linea-verde {
+    height: 2px;
+    width: 50%;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    margin: 10px 0;
+}
+
+.info-section {
+    position: relative;
+    width: 100%;
+    background: url('../img/solo-min.png') no-repeat;
+    background-size: contain;
+    height: 100%;
+  }
+
+ 
+/* Resto de tus estilos para el contenido interno */
+
+
+
+
+
+
+.info-bar i {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+ }
+ 
+.info-bar img {
+     max-width: 50%;
+    height: 20vh;
+ }
+
+.info-bar span {
+    text-align: left; /* Alineación del texto */
+    position: relative;
+    right: 10%;
+}
+/* Estilos CSS para la estructura de la página */
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column {
+   
+    color: white;
+     border: 2px solid #00ab4d;
+    padding: 10px;
+    width: 100%; /* Ancho del 100% para ocupar todo el contenedor */
+    display: flex; /* Cambio a disposición de fila para los divs internos */
+}
+
+
+
+.column1 {
+    background-image: url('../img/fondo-columnn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+
+.column2 {
+    background-image: url('../img/fondo-column.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+.column3 {
+    background-image: url('../img/fondo-columnnn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.column-inter,
+.column-img {
+     
+    width: 50%; /* Ancho del 50% para cada div interno */
+     padding: 4%;
+}
+.column-img-dos{
+ 
+}
+
+.column-inter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.column-img img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 1px white;
+}
+
+/* Ajusta el tamaño del cuadrado y otros estilos según sea necesario */
+.cuadrado {
+    box-shadow: 0px 0px 10px 1px white;
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+.linea-verde-dos-column{
+    height: 2px;
+    width: 50%;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    margin: 10px 0;   
+    position: relative;
+ }
+
+
+.cuadrado h2{
+font-size: 3rem;
+
+}
+
+ 
+.column-inter p{
+    font-size: 1rem;
+}
+/* Estilos específicos para el título */
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+
+ 
+
+/* Estilos para pantallas desde 300px hasta 768px */
+
+/* Estilos para pantallas desde 300px hasta 768px */
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 40%;
+      } 
+
+   .navbar{
+     width: 140vw;
+        }
+
+     
+
+    .logo img {
+        max-height: 80px; /* Reducción de la altura del logotipo para pantallas pequeñas */
+    }
+
+    .content-section{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .left-div, .right-div {
+        width: 100%; /* Cambio de 50vw a 100% para ocupar todo el ancho en pantallas pequeñas */
+    }
+
+
+    .left-div{
+        margin-top: 30%;
+    }
+    .left-div h1 {
+        font-size: 2rem; /* Reducción del tamaño del título en pantallas pequeñas */
+        width: 100%; /* Cambio de 46vw a 100% para ocupar todo el ancho en pantallas pequeñas */
+        margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas */
+    }
+
+    .left-div p {
+        width: 100%; /* Cambio de 42vw a 100% para ocupar todo el ancho en pantallas pequeñas */
+    }
+
+    .dos {
+        width: 100%; /* Cambio de 30vw a 100% para ocupar todo el ancho en pantallas pequeñas */
+        text-align: center; /* Alineación centrada para el elemento con clase dos en pantallas pequeñas */
+    }
+
+    .right-div {
+        margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+    }
+
+    .eleva-btn-presencia,
+    .eleva-btn {
+        width: 100%; /* Cambio de 20vw a 100% para ocupar todo el ancho en pantallas pequeñas */
+    }
+.info-section{
+    display: flex;
+    flex-direction: column;
+}
+.info-bar span {
+    text-align: center;
+    right: auto;
+}
+
+.iconos {
+    flex-direction: column;
+    align-items: center;
+}
+
+.linea-verde-dos,
+.linea-verde {
+    width: 100%;
+}
+
+.info-section {
+    background: url('../img/fondo-reves.png') no-repeat;
+    background-size: contain;
+ }
+
+/* Otras correcciones para mejorar la visualización en pantallas pequeñas */
+.column-inter,
+.column-img {
+    padding: 2%;
+}
+
+.linea-verde-dos-column {
+    left: 0;
+    width: 100%;
+}
+
+
+.plames {
+ }
+
+.column-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-inter,
+.column-img {
+    width: 100%;
+    padding: 2%;
+}
+
+.cuadrado {
+    width: 60px;
+    height: 60px;
+}
+
+.cuadrado h2 {
+    font-size: 2rem;
+}
+
+.hdos {
+    font-size: 1.5rem;
+}
+
+.linea-verde-dos-column {
+    width: 50%;
+    margin: 10px 0;
+    left: 25%;
+}
+
+.eleva-btn-presencia {
+    width: 80%;
+}
+
+
+
+
+}
+
+
+.elemento {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

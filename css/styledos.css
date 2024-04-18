@@ -1,0 +1,506 @@
+.seccion-nueva {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    box-shadow: -10px 0 15px -5px #00ff00, 10px 0 15px -5px #00ff00; /* Sombras verdes a los lados */
+}
+
+.circulo-con-sombra {
+    width: 5vw; /* Diámetro del círculo */
+     border-radius: 50%; /* Hace que el div sea un círculo */
+ box-shadow: 0px 0px 100px 30px green;
+ position: relative;
+ top: 80px;
+
+}
+
+.circulo-con-sombraa {
+    width: 10px; /* Diámetro del círculo */
+     border-radius: 50%; /* Hace que el div sea un círculo */
+ box-shadow: 0px 0px 100px 30px green;
+ position: relative;
+ top: 80px;
+ left: 100%;
+
+}
+
+
+
+.hdos{
+     width: 20vw;
+    margin: 2%;
+}
+
+.titi{
+    text-align: center;
+}
+.primera-parte{
+     height: 140vh;
+     background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.segunda-parte{
+     height: 100vh;
+     background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.tercera-parte{
+     height: 120vh;
+     background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.cuarta-parte{
+     height: 60vh;
+     background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.linea-y {
+    width: .3vw;
+    height: 100%;
+    background: linear-gradient(to right, #0097B2, #7ED957);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin-top: 4%;
+}
+
+.linea-yy {
+    width: .3vw;
+    height: 40%;
+    background: linear-gradient(to right, #0097B2, #7ED957);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin-top: 4%;
+}
+
+/* Ajusta el tamaño del cuadrado y otros estilos según sea necesario */
+.cuadradoo {
+    box-shadow: 0px 0px 10px 1px white;
+z-index: 2;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+.cuadradooo {
+    position: relative;
+    top: 440%;
+    box-shadow: 0px 0px 10px 1px white;
+z-index: 2;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+.cuadradooo-segundo {
+    position: relative;
+    top: 105%;
+    box-shadow: 0px 0px 10px 1px white;
+z-index: 2;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+.cuadradoooo-segundo {
+    position: relative;
+    top: 405%;
+    box-shadow: 0px 0px 10px 1px white;
+z-index: 2;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+
+.cuadradooo-tercero {
+    position: relative;
+    top: 120%;
+    box-shadow: 0px 0px 10px 1px white;
+z-index: 2;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+
+.cuadradoooo-tercero {
+    position: relative;
+    top: 420%;
+    box-shadow: 0px 0px 10px 1px white;
+z-index: 2;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+
+.cuadradooo-cuarto {
+    position: relative;
+    top: 400%;
+    box-shadow: 0px 0px 10px 1px white;
+z-index: 2;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background:  linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+}
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.contenido-uno {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.contenido-izquierda,
+.contenido-derecha {
+     width: 50%;
+    margin-bottom: 10%;
+    
+ }
+
+.contenido-izquierda {
+    text-align: left;
+    position: relative;
+    top: -16%;  
+ }
+
+.texto {
+margin-top: 10%;
+margin-bottom: 30%;
+    font-size: 1rem;
+     width: 30vw;
+    text-align:left;
+    margin-left: 13%;
+    }
+.texto-left {
+    margin-top: 15%;
+    margin-bottom: 15%;
+        font-size: 1rem;
+     width: 30vw;
+    text-align:right;
+ }
+
+.texto-left h3{
+    font-size: 2rem;
+}
+
+
+.texto h3{
+    font-size: 2rem;
+}
+
+.contenido-derecha {
+   position: relative;
+   top: -15%;
+  }
+
+ .video{
+margin-top: 15%;
+margin-bottom: 15%;
+ 
+
+ }
+
+
+ iframe{
+    height: 35vh;
+    width: 35vw;
+ }
+
+ /* nueva seccion */
+/* Estilos para la sección de video y tarjetas */
+/* Estilos para la sección con video */
+.nueva-seccion-con-video {
+    position: relative;
+    width: 100%;
+    height: 120vh; /* Ajusta la altura según tus necesidades */
+    overflow: hidden;
+    background: black url('../img/fondo.gif') no-repeat center;
+    background-size: contain; /* Asegura que la imagen de fondo cubra todo el elemento */
+}
+
+
+/* Estilos para el video */
+.nueva-seccion-con-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el tamaño del video manteniendo su proporción */
+    z-index: -1; /* Coloca el video detrás de otros elementos */
+}
+
+/* Ajuste para el h2 fuera de las tarjetas */
+.nueva-seccion-con-video h2 {
+    position: relative;
+     color: #fff;
+    text-align: center;
+ }
+/* Resto de tus estilos... */
+
+.video-container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+ 
+video{
+    border:solid green 1px;
+box-shadow: 0px 0px 10px 2px green;
+}
+/* Estilos específicos para las tarjetas */
+.tarjetas-container {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjetas-container-dos{
+
+
+ border-radius: 10px;
+ background: linear-gradient(to right, rgba(0, 151, 178, 0.5), rgba(126, 217, 87, 0.5));
+
+
+}
+
+.texto-p{
+
+margin-bottom: 3%;
+
+
+
+}
+
+.tarjeta {
+    background: linear-gradient(to right, rgba(0, 151, 178, 0.5), rgba(126, 217, 87, 0.5));
+    margin: 20px;
+    padding: 20px; /* Añade padding para el contenido interno de la tarjeta */
+    border-radius: 10px;
+    width: 20vw;
+    height:83vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    transition: .5s;
+    border: solid 1px white;
+}
+ 
+.tarjeta:hover {
+    background: linear-gradient(to right, rgba(0, 151, 178, 0.5), rgba(126, 217, 87, 0.5));
+    margin: 20px;
+    padding: 20px; /* Añade padding para el contenido interno de la tarjeta */
+    border-radius: 10px;
+     
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+/* Ajusta los estilos de las tarjetas según tus necesidades */
+.tarjeta h2 {
+    font-size: px;
+    margin-bottom: 10px;
+    color: #fff; /* Ajusta el color según tus necesidades */
+    text-align: center;
+}
+
+
+.tarjeta p {
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+}
+.eleva-btn-presencia-plan {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(0, 144, 144), rgb(70, 255, 141));
+    background-size: cover;    border: none;
+    border-radius: 40px;
+    height: 8vh;
+    width: 20vw;
+    cursor: pointer;
+    margin-top: 4%;
+    top: 40px;
+    position: relative;
+    left: 43%;
+    transition: .5s;
+    text-decoration: none;
+  }
+  .eleva-btn-presencia-plan:hover{
+    box-shadow: 0px 0px 10px 1px white;
+
+   transform:translateY(-10px);
+    background: linear-gradient(to right, rgb(0, 113, 113), rgb(22, 200, 90));
+    background-size: cover;    border: none;
+
+}
+
+/* Estilos para el footer */
+footer {
+    background:url('../img/fanda-reverde.png'); /* Color de fondo del footer */
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+   
+    color: white; /* Color del texto en el footer */
+    padding: 20px 0; /* Espaciado interno en el footer */
+    text-align: center; /* Alineación del contenido en el centro */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left img {
+     /* Ajusta el ancho de la imagen según tus necesidades */
+    height:12vh; /* Para mantener la proporción de la imagen */
+}
+
+.footer-center p {
+    margin: 0;
+}
+
+/* Estilo para el ícono de Instagram */
+ 
+.footer-right img {
+
+}
+/* Estilos generales aquí */
+
+@media only screen and (max-width: 768px) {
+
+.texto{
+    margin-left: 20%;
+}
+.cuadradoo{
+    position: relative;
+}
+.cuarta-parte{
+height: 100%;
+
+}
+ 
+.linea-yy{
+    height: 100%;
+}
+.titi{
+    width: 90vw;
+    position: relative;
+    right: 170%;
+}
+}
+
+/* Estilos específicos para las tarjetas en dispositivos móviles */
+/* Estilos específicos para las tarjetas en dispositivos móviles */
+@media only screen and (max-width: 768px) {
+
+   .nueva-seccion-con-video{
+background: url('../img/fondo-globo.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 190vh;
+ 
+   }
+
+
+    .tarjetas-container {
+position: relative;
+top: 43%;
+          flex-direction: column; /* Cambia a diseño de columna */
+        align-items: center; /* Centra las tarjetas en el eje transversal */
+    }
+
+    .tarjeta {
+        width: 70%;
+        height: 50vh; /* Ajusta la altura automáticamente */
+        margin-bottom: 20px; /* Espaciado entre tarjetas en dispositivos móviles */
+    }
+
+    .tarjeta:hover {
+        width: none;
+        height: none; /* Ajusta la altura automáticamente al hacer hover */
+    }
+
+    .tarjeta h2 {
+        font-size: 18px; /* Ajusta el tamaño del texto en dispositivos móviles */
+        margin-bottom: 5px; /* Espaciado entre el título y el párrafo */
+    }
+
+    .tarjeta p {
+        font-size: 0.8rem; /* Ajusta el tamaño del texto en dispositivos móviles */
+    }
+
+    .eleva-btn-presencia-plan{
+        width: 40vw;
+        position: relative;
+        left: 20%;
+        top: 10px;
+    }
+}
+
+ 
+
